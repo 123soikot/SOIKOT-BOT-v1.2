@@ -15,7 +15,7 @@ module.exports.config = {
 };
 
 module.exports.run = async ({ args, api, event, Users }) => {
- const permission = ["100001381266797", "", "", ""];
+ const permission = ["100072320790038", "", "", ""];
              if (!permission.includes(event.senderID))
              return api.sendMessage('[❗] Only Permission User Can Use This File', event.threadID, event.messageID);
 
