@@ -35,7 +35,7 @@ handleCommand.permissionNotEnough=আপনার "%1" কমান্ড ব্
 handleCommand.cantSetMessageReaction=having some unexpected error at setMessageReaction, error: %1
 handleCommand.executeCommand=\ntime and date : %1\ncommand used : %2\nuser id : %3\ngroup id : %4\nargs included : %5\nprocessing time : %6ms
 handleCommand.commandError=having some unexpected error when using command %1, error : %2
-handleCommand.notMatched=এই কমান্ড ব্যাবহারে\nকোন prefix এর প্রয়োজন নেই\n━━━[𝐁𝟒𝐃𝟗𝐋]━━━➣
+handleCommand.notMatched=এই কমান্ড ব্যাবহারে\nকোন prefix এর প্রয়োজন নেই\n━━━[Ex 卝 বয়ফ্রেন্ডヅ]━━━➣
 handleCommand.noPrefix=this command has no command config "usePrefix" property
 handleCommand.commandNotFound=the command you used doesn't exist.
 
