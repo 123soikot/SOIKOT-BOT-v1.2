@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "randommix",
+  name: "random",
   version: "11.9.7",
   permssion: 0,
   credits: "★𝐌𝟗𝐇𝟒𝐌𝐌𝟒𝐃-𝐁𝟒𝐃𝟗𝐋★",
