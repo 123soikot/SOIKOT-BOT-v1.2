@@ -6,8 +6,9 @@ module.exports.config = {
   name: "install",
   version: "1.0.0",
   hasPermssion: 2,
-  credits: "dipto",
+  credits: "SOIKOT ",
   Prefix:"true",
+  prefix: ".", // এখানে prefix প্রপার্টি যোগ করা হয়েছে
   description: "Create a new file with code from a link or provided code, with syntax error checking",
   category: "utility",
   usages: "[file name] [link/code]",
