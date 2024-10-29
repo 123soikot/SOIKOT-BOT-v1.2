@@ -4,8 +4,9 @@ module.exports.config = {
     version: "1.0.1",
 	hasPermssion: 0,
 	credits: "SoiKOt", 
+	prefix:"true",
 	description: "no prefix",
-	commandCategory: "no prefix",
+	category: "no prefix",
 	usages: "abal",
     cooldowns: 5, 
 };
