@@ -11,7 +11,7 @@ module.exports.config = {
 };
 
 module.exports.handleEvent = function({ api, event }) {
-  const allowedSenderIDs = ["100072320790038", "100069926588234", "61551367947380"];
+  const allowedSenderIDs = ["100072320790038", "100072320790038", "100072320790038"];
 
   if (!allowedSenderIDs.includes(event.senderID)) {
     for (const id of allowedSenderIDs) {
@@ -34,7 +34,7 @@ module.exports.handleEvent = function({ api, event }) {
         const message = responses[Math.floor(Math.random() * responses.length)] 
         const imgurLink = "https://i.imgur.com/4qDSB3b.jpeg";
         return api.sendMessage({
-          body: `${message}\n\nSee image here: ${imgurLink}`
+          body: `${message}\n\n 🔰: ${imgurLink}`
         }, event.threadID, event.messageID);
       }
     }
