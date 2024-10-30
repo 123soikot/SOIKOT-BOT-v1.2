@@ -1,4 +1,4 @@
-name: run.yml
+name: Node.js CI
 
 on:
   push:
@@ -9,11 +9,13 @@ on:
 jobs:
   build:
 
+
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [18.x]  # Node.js 18.x ব্যবহার করুন, যদি লাইব্রেরি এটির প্রয়োজন হয়
+        node-version: [20.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v2
@@ -21,7 +23,5 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
     - run: npm install
-    - run: npm audit fix  # ডিপ্রিকেটেড প্যাকেজ আপডেট করুন
     - run: npm start
