@@ -1,5 +1,5 @@
 module.exports = async ({ api, event }) => {
-  const logger = require('./BADOL/catalogs/BADOLc.js')
+  const logger = require('./SOIKOT/catalogs/SOIKOT.js')
   
   const configCustom = {
     autosetbio: {
