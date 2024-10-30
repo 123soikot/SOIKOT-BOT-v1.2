@@ -1,5 +1,5 @@
 {
-  "author": "BADOL",
+  "author": "SOIKOT",
   "autoRestart": true,
   "accpetPending": false,
   "developermode": false,
@@ -10,13 +10,13 @@
   "BOTNAME": ".𝐄𝐱 𝟏𝟎 𝐛𝐨𝐭___//",
   "PREFIX": ".",
   "OPERATOR": [
-    "100001381266797"
+    "100072320790038"
   ],
   "ADMINBOT": [
     "100072320790038",
     ""
   ],
-  "OWNER": ["100001381266797"], 
+  "OWNER": ["100072320790038"], 
   "APPROVED": [],
   "disabledcmds": [],
   "disabledevents": [],
